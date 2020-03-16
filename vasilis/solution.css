@@ -1,0 +1,33 @@
+main {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+li {
+    margin: 10px;
+}
+@media screen and (max-width: 599px) {
+    main {
+        font-size: 10px;
+        font-family: fantasy;
+        color: green;
+    }
+}
+@media screen and (min-width: 600px) {
+    main {
+        font-size: 25px;
+        color: red;
+    }
+@media screen and (min-width: 1200px) {
+    main {
+        font-size: 30px;
+        color: blue;
+    }
+    ol li::first-letter {
+        background-color: rgb(62, 5, 85);
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}
+
+
