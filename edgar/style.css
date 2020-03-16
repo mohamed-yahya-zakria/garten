@@ -1,0 +1,50 @@
+
+/* css desktop-up*/
+@media screen and (min-width: 1200px){
+    body {
+        background-color: yellow;
+        color: blueviolet;
+        margin: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    main {
+        font-size: 22px;
+    }
+    ol li::first-letter {
+        font-weight: bold;   
+    }
+
+    ol{
+        padding-left: 35px;
+    }
+
+}
+
+/* css tablet*/
+@media screen and (min-width: 600px) and (max-width:1199px){
+    body {
+        background: rgb(250, 210, 250);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: blueviolet;
+        margin: 20px;
+    }
+    main{
+        font-size: 20px;
+    }
+    ol{
+        padding-left: 30px;
+    }
+}
+
+/* css mobile */
+@media screen and (max-width: 599px) {
+    body {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px;
+    }
+    main {
+        font-size: 18px;
+    }
+    ol{padding-left: 35px;}
+}
