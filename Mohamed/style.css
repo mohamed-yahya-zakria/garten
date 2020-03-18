@@ -1,0 +1,34 @@
+/* size for mobil 620px */
+ /* size for tablet 768*/
+  /* size for Disktop 1200*/
+
+@media screen and (min-width: 620vw) {
+    main {
+ 
+      font-style: oblique;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  }
+
+@media only screen and (min-width: 768vw) {
+      main {
+          font-style: normal;
+          color: brown;
+          margin: 120px ;
+          padding: 40px;
+          
+      }
+  }
+
+
+ 
+  @media only screen and (min-width: 1200vw {
+    main {
+      padding: 0px;
+      margin: 0px;
+        font-style: normal;
+        color: rgb(56, 63, 167);
+        background-color:rgb(233, 233, 82);
+        
+    }
+  } 
